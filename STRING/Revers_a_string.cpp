@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string str;
+
+    cout << "Enter a string: ";
+    getline(cin, str);
+
+    int start = 0;
+    int end = str.length() - 1;
+
+    // Reverse using swapping
+    while(start < end) {
+        char temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+        start++;
+        end--;
+    }
+
+    cout << "Reversed string: " << str;
+
+    return 0;
+}
