@@ -16,5 +16,5 @@ int main() {
 
     cout << "Uppercase string: " << str;
 
-    return 0;
+    return 0 ;
 }
