@@ -29,7 +29,7 @@ int main(){
         }
 
          else {
-           right--;  
+           right--;
           }
     }
       cout << "No pair found";
